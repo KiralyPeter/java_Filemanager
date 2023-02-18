@@ -1,5 +1,8 @@
+// Worker osztály. Ennek egy példánya egy dolgozó
+
 public class Worker {
-     
+    
+    // Egy dolgozó adatai:
     private String name;
     private String city;
     private String address;
@@ -8,6 +11,7 @@ public class Worker {
     private String born;
     private String hire;
 
+    // A Worker osztály konstruktora
     public Worker() {
 
         name = "";
@@ -19,6 +23,7 @@ public class Worker {
         hire = "";
     }
 
+    // A Worker osztály publikus metósusai (ezekkel lehet meghívni és manipulálni (get / set metódusok))
     public String getName() { return name; }
     public void setName( String name ) { this.name = name; }
 
