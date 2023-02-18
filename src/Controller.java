@@ -18,6 +18,7 @@ public class Controller {
        
         int people = countWorkers( empList);
         ArrayList<String> nameList = getNames(empList);
+        writeFile(nameList);
        
     }
 
