@@ -14,7 +14,7 @@ public class Controller {
         ArrayList<Worker> empList = new ArrayList<>();
         Reader read = new Reader ("dolgozok100.txt");
 
-       empList = read.readFile();
+        empList = read.readFile();
        
         int people = countWorkers( empList);
         ArrayList<String> nameList = getNames(empList);
