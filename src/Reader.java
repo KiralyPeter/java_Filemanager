@@ -64,6 +64,8 @@ public class Reader {
             empList.add( emp );
         }
 
+        scan.close();
+
         // Az empList tömböt adja vissza...
         return empList;
     }  
